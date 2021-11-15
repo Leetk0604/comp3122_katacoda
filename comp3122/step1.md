@@ -1,10 +1,16 @@
-curl -L https://github.com/docker/compose/releases/download/1.28.5/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+instilizing th docker environment
+`curl -L https://github.com/docker/compose/releases/download/1.28.5/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose`{{execute}}
 
-chmod +x /usr/local/bin/docker-compose
+`chmod +x /usr/local/bin/docker-compose`{{execute}}
 
-git clone https://github.com/Lam-Weidong/foodorderingapp
+fetch app from git hub
+`git clone https://github.com/Lam-Weidong/foodorderingapp`{{execute}}
 
-cd /root/foodorderingapp/foodorderingapp_a
+go to the correct directory
+`cd /root/foodorderingapp/foodorderingapp_a`{{execute}}
 
-docker-compose up
+run the program
+`docker-compose up`{{execute}}
+
+
 
